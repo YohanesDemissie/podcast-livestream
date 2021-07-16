@@ -26,3 +26,7 @@ body {
 	height: 100%;
 	overflow: auto;
 }
+
+.other-pages {
+	margin-left: 160px;
+}
