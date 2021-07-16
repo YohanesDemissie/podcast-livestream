@@ -1,62 +1,32 @@
-import React, { useState } from 'react';
+import React from 'react';
+import '../styles/home.css';
 
-function Home () {
-    const [playing, setPlaying] = useState(false);
-
-    const startVideo = () => {
-      setPlaying(true);
-      navigator.mediaDevices.getUserMedia(
-        {
-          video: true
-        }
-      ).then(function(stream) {
-        let video = document.getElementsByClassName('app_videoFeed')[0];
-          if (video) {
-            video.srcObject = stream;
-          }
-      })
-      .catch(function(err) {
-        console.error(err)
-      })
-    };
-
-//   stopStreamedVideo(videoElem) {
-//   const stream = videoElem.srcObject;
-//   const tracks = stream.getTracks();
-
-//   tracks.forEach(function(track) {
-//     track.stop();
-//   });
-
-//   videoElem.srcObject = null;
-// }
-
-    const stopVideo = () => {
-      setPlaying(false);
-
-      let video = document.getElementsByClassName('app_videoFeed')[0];
-      video.srcObject.getTracks()[0].stop();
-    }
+const Home = () => {
   return (
-    <div className="home">
-      <video
-        height={500}
-        width={500}
-        muted
-        autoPlay
-        className="app_videoFeed"
-        >
-      </video>
-
-      <div>
-        {playing ? (
-          <button onClick={stopVideo}>Stop</button>
-        ) : (
-          <button onClick={startVideo}>Start</button>
-        )}
+    <div className="home-container">
+      <div className="header-container">
+      <img className="header-image" src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Asier%20Romero,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1469550122/zxrk1ld7jme7td4ziwqg.jpg" alt="soul" />
+        <div className="header-titles-container">
+          <p className="header-episode">Podcast Episode</p>
+          <p className="header-title">This is The Podcast Title/Name</p>
+          <p className="header-subtitle">This is the subtitle</p>
+        </div>
       </div>
+
+      <div className="episode-description-container">
+        <p className="header-subtitle">Episode Description</p>
+        <p className="episode-description">asdfadsfadsfad sfadsfa
+        dsfadsfasdfa dsfa
+        sdfadsfadfa dsfadfadfadsf
+        adfasdfasdf adsfadsfadfadsfadsfadfadsf
+        adfadsfadf adsfadsfadsfadsfadsfadsf adsfadsfadsfadfadsf
+        adsfadsfa dsfasdfasdfads fadsfadsfa dsfasdfadsfadsfadsf
+        asdfdasd fadsfasdfadsfad sfadfasdfadsfadsfadsfas dfasdfasdf
+        adsfadsfad sfadsfadsfadsfasd fasdfasdfadsfasdf asdfasdfasdf</p>
+      </div>
+
     </div>
-  );
-};
+  )
+}
 
 export default Home;

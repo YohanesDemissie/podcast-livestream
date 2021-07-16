@@ -1,0 +1,9 @@
+.episodes-container {
+	margin-left: 32px;
+	padding: 32px;
+	display: inline-block;
+}
+
+iframe {
+	padding: 32px;
+}

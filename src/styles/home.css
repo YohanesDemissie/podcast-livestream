@@ -1,0 +1,47 @@
+.home-container {
+	/* background-image: linear-gradient(blue, black); */
+	display: inline-block;
+	color: white;
+	/* padding-top: 50px; */
+	padding-bottom: 20px;
+}
+
+/* .header-titles-container {
+} */
+
+.header-container {
+	background-image: linear-gradient(rgb(36, 67, 206), rgb(0, 0, 82));
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+
+.header-episode {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.header-title {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.header-subtitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.header-image {
+	width: 250px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 32px;
+}
+
+.episode-description-container {
+	width: 50%;
+	line-height: 200%;
+	margin-top: 150px;
+	margin-left: 32px;
+}
