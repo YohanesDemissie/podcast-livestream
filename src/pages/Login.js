@@ -1,5 +1,4 @@
 import React, { useState, useEffect} from 'react';
-import { FirebaseContext } from '../context/FirebaseContext';
 import fire from '../firebase/config';
 
 const Login = (props) => {
