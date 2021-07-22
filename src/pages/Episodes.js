@@ -39,12 +39,12 @@ const Episodes = () => {
       {posts.length > 0 ? (
         posts.map((post) =>
 
-        <div key={post.key}>
-          <h1 className="episodes-title">{post.title}</h1>
-          <div className="episodes-container">
+        <div className="episodes-container" key={post.key}>
+          <div className="episode-container">
+          <h1>{post.title}</h1>
             <p>{post.description}</p>
-            <iframe className="videos" width="200" height="200" src={post.embedVideoURL} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
-            <iframe className="audios" width="500" height="130" scrolling="no" frameBorder="no" allow="autoplay" src={post.embedAudioURL}></iframe>
+            <iframe className="videos" width="200" height="200" src={post.embedVideoURL} allow="fullscreen"></iframe>
+            <iframe className="audios" allow="autoplay" src={post.embedAudioURL}></iframe>
           </div>
         </div>
       )) : (<h1>Nothing Yet</h1>)}
@@ -53,17 +53,3 @@ const Episodes = () => {
 }
 
 export default Episodes;
-
-{/* <h1 className="episodes-title">View More Episodes</h1>
-<div className="episodes-container">
-  
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/fTAPaHcLAhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/G42RJ4mKj1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
-  <iframe width="200" height="200" src="https://www.youtube.com/embed/C7t_LxpzYTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
-  {data.map((stuff) =>
-      <div>
-        <h1 className="episodes-title">{stuff.title}</h1>
-        <iframe width="200" height="200" src={stuff.videoElement} allow="fullscreen"></iframe>
-      </div>
-  )}
-</div> */}

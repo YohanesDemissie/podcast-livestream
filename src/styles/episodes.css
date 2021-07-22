@@ -1,21 +1,25 @@
 .episodes-container {
-	display: block;
+	display: inline;
+	justify-content: space-around;
+}
+
+.episode-container {
+	display: inline-block;
 	/* margin-left: 32px; */
 	padding: 32px;
-	width: 500px;
-}
-
-.episodes-title {
-	margin-left: 32px;
-}
-
-iframe {
+	width: 300px;
+	text-align: center;
 }
 
 .videos {
-	margin: 5px auto;
+	margin-bottom: 15px;
+	width: 200px;
+	height: 200px;
+	border: none;
 }
 
-/* .audios {
-	padding-left: 32px;
-} */
+.audios {
+	width: 200px;
+	height: 80px;
+	border: none;
+}
