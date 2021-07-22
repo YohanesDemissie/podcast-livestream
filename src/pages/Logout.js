@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/logout.css';
 
 const Logout = ({handleLogout}) => {
   return(
-    <button onClick={handleLogout}>Logout</button>
+    <button className="admin-logout" onClick={handleLogout}>Logout</button>
   )
 }
 

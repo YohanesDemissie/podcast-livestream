@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {firebase, db} from '../firebase/config';
+import '../styles/admin.css';
 
 import Login from './Login';
 import Logout from './Logout';
@@ -79,17 +80,20 @@ function Admin() {
       {(user) ? (
         <div>
           <Logout handleLogout={handleLogout} />
-          <form onSubmit={uploadContent}>
-            <label for="title">Title</label>
-            <input type="text" id="title" name="title" placeholder="Title" />
-            <label for="embedVideoURL">Embed Code Video</label>
-            <input type="text" id="embedVideoURL" name="embedVideoURL" placeholder="copy video url here"/>
-            <label for="embedAudioURL">Embed Code Audio</label>
-            <input type="text" id="embedAudioURL" name="embedAudioURL" placeholder="copy audio url here"/>
-            <label for="description">Description</label>
-            <input type="text" id="description" name="description" placeholder="description"/>
-            <button type="submit">Upload</button>
-          </form>
+          <div className="admin-form-container">
+          <h1 className="admin-title">Administrative User Only</h1>
+            <form className="admin-form" onSubmit={uploadContent}>
+              <label className="admin-label" for="title">Title</label>
+              <input className="admin-input" type="text" id="title" name="title" placeholder="Title" />
+              <label className="admin-label" for="embedVideoURL">Embed Code Video</label>
+              <input className="admin-input" type="text" id="embedVideoURL" name="embedVideoURL" placeholder="copy video url here"/>
+              <label className="admin-label" for="embedAudioURL">Embed Code Audio</label>
+              <input className="admin-input" type="text" id="embedAudioURL" name="embedAudioURL" placeholder="copy audio url here"/>
+              <label className="admin-label" for="description">Description</label>
+              <input className="admin-input" type="text" id="description" name="description" placeholder="description"/>
+              <button className="admin-submit" type="submit">Upload</button>
+            </form>
+          </div>
          </div>
       ) : (
         <div>
