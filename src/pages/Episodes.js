@@ -23,7 +23,8 @@ const Episodes = () => {
 
   useEffect(() => {
     const getPostsFromFirebase = [];
-    const subscriber = db.collection('episodes').onSnapshot((querySnapshot) => {
+    const subscriber = db.collection('episodes')
+.orderBy("episode", "desc").onSnapshot((querySnapshot) => {
       querySnapshot.forEach((doc) => {
         getPostsFromFirebase.push({...doc.data(), key: doc.id,});
       });

@@ -71,7 +71,10 @@ function Admin() {
       return accumulator;
     }, {});
     console.log({formData})
-    db.collection("episodes").add(formData)
+    db.collection("episodes").add(formData);
+    e.target.reset();
+    alert('Your new Episode has been added to your podcast. Thank you!')
+
   }
   //NEW THING ENDS
 
