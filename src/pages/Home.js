@@ -14,9 +14,9 @@ const Home = () => {
           <div className="header-container">
           <img className="header-image" src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Asier%20Romero,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1469550122/zxrk1ld7jme7td4ziwqg.jpg" alt="soul" />
             <div className="header-titles-container">
-              <p className="header-episode">Podcast Episode</p>
-              <p className="header-title">This is The Podcast Title/Name</p>
-              <p className="header-subtitle">This is the subtitle</p>
+              <p className="header-episode">Presenting:</p>
+              <p className="header-title">Some Title: By Black Excellence, for Black Excellence </p>
+              <p className="header-subtitle">Food for thought - Knowledge & Empowerment.</p>
             </div>
           </div>
 

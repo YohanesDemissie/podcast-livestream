@@ -7,7 +7,7 @@ const Login = (props) => {
   return (
     <div className="admin-form-container">
       <h1 className="admin-title">Administrative User Only</h1>
-      <form className="admin-form">
+      <div className="admin-form">
         <label className="admin-label">Admin login</label>
         <input className="admin-input"type="text" autoFocus value={email} onChange={(e) => setEmail(e.target.value)} id="admin name" placeholder="admin ID" />
         <p>{emailError}</p>
@@ -15,7 +15,7 @@ const Login = (props) => {
         <input className="admin-input" name="admin password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} id="admin password" placeholder="admin password" />
         <p>{passwordError}</p>
         <button className="admin-submit" type="submit" onClick={handleLogin}>Login</button>
-      </form>
+      </div>
     </div>
   )
 }
