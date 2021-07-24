@@ -94,6 +94,8 @@ function Admin() {
               <input className="admin-input" type="text" id="embedAudioURL" name="embedAudioURL" placeholder="copy audio url here"/>
               <label className="admin-label" for="description">Description</label>
               <input className="admin-input" type="text" id="description" name="description" placeholder="description"/>
+              <label className="admin-label" for="description">Episode</label>
+              <input className="admin-input" type="number" id="episode" name="episode" placeholder="episode number"/>
               <button className="admin-submit" type="submit">Upload</button>
             </form>
           </div>

@@ -1,13 +1,5 @@
-.sidenav {
-	display: none;
-}
-
-.mobile-menu {
-	position: absolute;
-	z-index: 1;
-}
-@media only screen and (min-width: 731px) {
-	.sidenav {
+@media only screen and (max-width: 730px) {
+	.other-nav {
 		width: 160px;
 		height: 100vh;
 
@@ -32,15 +24,11 @@ position: sticky; */
 		margin-right: 32px;
 	}
 
-	.sidenav a {
+	.other-nav a {
 		padding: 6px 8px 6px 16px;
 		text-decoration: none;
 		font-size: 25px;
 		color: #818181;
 		display: inline-block;
-	}
-
-	.sidenav a:hover {
-		color: #f1f1f1;
 	}
 }

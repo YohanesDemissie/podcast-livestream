@@ -1,0 +1,9 @@
+.mobile-menu-container {
+	display: none;
+}
+
+@media only screen and (max-width: 730px) {
+	.mobile-menu-container {
+		display: inline-block;
+	}
+}
