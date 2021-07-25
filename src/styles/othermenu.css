@@ -1,5 +1,11 @@
 @media only screen and (max-width: 730px) {
 	.other-nav {
+		padding-top: 50px;
+		margin-top: 50px;
+	}
+
+	.other-nav {
+		color: white;
 		width: 160px;
 		height: 100vh;
 
@@ -31,4 +37,6 @@ position: sticky; */
 		color: #818181;
 		display: inline-block;
 	}
+
+	/* .mobile-menu; */
 }

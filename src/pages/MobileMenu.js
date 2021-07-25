@@ -1,12 +1,15 @@
 import React from 'react';
-import '../styles/mobileMenu.css'
+import '../styles/othermenu.css';
 
 const MobileMenu = () => {
   return(
-    <div className="mobile-menu-container">
-      This is the mobile menu
-    </div>
+      <div className="other-nav">
+        <a href="/about">About</a>
+        <a href="/services">Services</a>
+        <a href="/clients">Clients</a>
+        <a href="/contact">Contact</a>
+      </div>
   )
 }
 
-export default MobileMenu
+export default MobileMenu;

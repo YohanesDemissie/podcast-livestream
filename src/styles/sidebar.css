@@ -5,7 +5,16 @@
 .mobile-menu {
 	position: absolute;
 	z-index: 1;
+	background-color: black;
+	color: grey;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	/* margin-bottom: 40px; */
+	text-align: center;
+	/* margin-left: 10px; */
 }
+
 @media only screen and (min-width: 731px) {
 	.sidenav {
 		width: 160px;
@@ -25,19 +34,22 @@ position: sticky; */
 		background-color: #111;
 		/* overflow-x: visible; */
 		/* overflow: auto; */
-		padding-top: 20px;
+		/* padding-top: 200px; */
 		/* margin-right: 50px; */
 		display: block;
 		/* flex-grow: 1; */
 		margin-right: 32px;
+		padding-top: 40px;
 	}
 
 	.sidenav a {
-		padding: 6px 8px 6px 16px;
+		/* padding-top: 500px; */
+		padding: 5px 8px 6px 16px;
 		text-decoration: none;
 		font-size: 25px;
 		color: #818181;
 		display: inline-block;
+		/* padding-top: 400px; */
 	}
 
 	.sidenav a:hover {

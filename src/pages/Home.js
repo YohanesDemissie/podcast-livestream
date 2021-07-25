@@ -1,5 +1,4 @@
 import React from 'react';
-import MediaQuery from 'react-responsive';
 import Title from './Title';
 import Episodes from './Episodes';
 import Sidebar from './Sidebar';
