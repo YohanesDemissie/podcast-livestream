@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div>
       <button className="mobile-menu" onClick={handleClick}>
-        MENU
+        Menu
       </button>
       {view == true ? <MobileMenu /> :
         <div className="sidenav">
