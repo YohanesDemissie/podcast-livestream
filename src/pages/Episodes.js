@@ -43,7 +43,7 @@ const Episodes = () => {
         <div className="episodes-container" key={post.key}>
           <div className="episode-container">
           <h1>{post.title}</h1>
-            <p>{post.description}</p>
+            <p>Starring: {post.guestStar}</p>
             <iframe className="videos" width="200" height="200" src={post.embedVideoURL} allow="fullscreen"></iframe>
             <iframe className="audios" allow="autoplay" src={post.embedAudioURL}></iframe>
           </div>
