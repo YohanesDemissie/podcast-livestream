@@ -16,6 +16,7 @@ import fire from './firebase/config';
 // import './styles/home.css';
 
 import './App.css';
+import GuestStars from './pages/GuestStars';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/admin-0731">
             <Admin />
+          </Route>
+          <Route path="/guest-stars">
+            <GuestStars />
           </Route>
           </Switch>
       </Router>

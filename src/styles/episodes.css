@@ -1,0 +1,29 @@
+.episodes-container {
+	display: inline-block;
+	justify-content: space-around;
+}
+
+.episode-container {
+	display: inline-block;
+	/* margin-left: 32px; */
+	padding: 32px;
+	width: 300px;
+	text-align: center;
+}
+
+.videos {
+	margin-bottom: 15px;
+	width: 200px;
+	height: 200px;
+	border: none;
+}
+
+.audios {
+	width: 200px;
+	height: 80px;
+	border: none;
+}
+
+.guest-link {
+	color: white;
+}

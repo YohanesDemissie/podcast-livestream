@@ -4,6 +4,8 @@ import '../styles/admin.css';
 
 import Login from './Login';
 import Logout from './Logout';
+import AdminEpisodes from './AdminEpisodes';
+import AdminGuestStars from './AdminGuestStars';
 
 function Admin() {
   const [user, setUser] = useState('');
@@ -58,25 +60,23 @@ function Admin() {
   }, []);
 
   //NEW THINGS TO INCOPORATE FOR FORUM DATA
-  const uploadContent = (e) => {
-    e.preventDefault();
+  // const uploadContent = (e) => {
+  //   e.preventDefault();
 
-    const elementsArray = [...e.target.elements];
-    console.log(elementsArray);
+  //   const elementsArray = [...e.target.elements];
+  //   console.log(elementsArray);
 
-    const formData = elementsArray.reduce((accumulator, currentValue) => {
-      if(currentValue.id) {
-        accumulator[currentValue.id] = currentValue.value;
-      }
-      return accumulator;
-    }, {});
-    console.log({formData})
-    db.collection("episodes").add(formData);
-    e.target.reset();
-    alert('Your new Episode has been added to your podcast. Thank you!')
-
-  }
-  //NEW THING ENDS
+  //   const formData = elementsArray.reduce((accumulator, currentValue) => {
+  //     if(currentValue.id) {
+  //       accumulator[currentValue.id] = currentValue.value;
+  //     }
+  //     return accumulator;
+  //   }, {});
+  //   console.log({formData})
+  //   db.collection("episodes").add(formData);
+  //   e.target.reset();
+  //   alert('Your new Episode has been added to your podcast. Thank you!')
+  // }
 
   return (
     <div>
@@ -85,19 +85,8 @@ function Admin() {
           <Logout handleLogout={handleLogout} />
           <div className="admin-form-container">
           <h1 className="admin-title">Administrative User Only</h1>
-            <form className="admin-form" onSubmit={uploadContent}>
-              <label className="admin-label" for="title">Title</label>
-              <input className="admin-input" type="text" id="title" name="title" placeholder="title" />
-              <label className="admin-label" for="embedVideoURL">Video URL</label>
-              <input className="admin-input" type="text" id="embedVideoURL" name="embedVideoURL" placeholder="copy video url here"/>
-              <label className="admin-label" for="embedAudioURL">Audio URL</label>
-              <input className="admin-input" type="text" id="embedAudioURL" name="embedAudioURL" placeholder="copy audio url here"/>
-              <label className="admin-label" for="guestStar">Guest Star</label>
-              <input className="admin-input" type="text" id="guestStar" name="guestStar" placeholder="guest star"/>
-              <label className="admin-label" for="episode">Episode</label>
-              <input className="admin-input" type="number" id="episode" name="episode" placeholder="episode number"/>
-              <button className="admin-submit" type="submit">Upload</button>
-            </form>
+          {/* <AdminEpisodes /> */}
+          <AdminGuestStars />
           </div>
          </div>
       ) : (
