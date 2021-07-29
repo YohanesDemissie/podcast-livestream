@@ -1,8 +1,8 @@
 .contact-form-container {
 	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
+	/* position: fixed; */
+	margin-top: 375px;
+	margin-left: 45%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	width: 350px;
@@ -36,3 +36,7 @@
 .contact-submit {
 	margin-top: 10px;
 }
+
+/* .contact-container {
+	padding-bottom: 1000px;
+} */
