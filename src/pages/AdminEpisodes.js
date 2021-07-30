@@ -20,8 +20,9 @@ const AdminEpisodes = () => {
     alert('Your new Episode has been added to your podcast. Thank you!')
   }
   return(
-    <div>
-      <form className="admin-form" onSubmit={uploadContent}>
+    <div className="admin-form">
+      <h1>Upload Episodes</h1>
+      <form onSubmit={uploadContent}>
         <label className="admin-label" for="title">Title</label>
         <input className="admin-input" type="text" id="title" name="title" placeholder="title" />
         <label className="admin-label" for="embedVideoURL">Video URL</label>

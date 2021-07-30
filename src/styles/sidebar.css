@@ -2,12 +2,10 @@
 	display: none;
 }
 
-.mobile-menu {
-}
-
 @media only screen and (max-width: 730) {
 	.mobile-menu {
-		position: absolute;
+		/* position: absolute; */
+		/* display: block; */
 		z-index: 1;
 		background-color: black;
 		color: grey;
@@ -22,6 +20,7 @@
 		font-size: 25px;
 		margin-top: 0px;
 		display: inline-flex;
+		z-index: 1;
 	}
 }
 
@@ -30,6 +29,10 @@
 }
 
 @media only screen and (min-width: 731px) {
+	.mobile-menu {
+		display: none;
+	}
+
 	.sidenav {
 		width: 160px;
 		height: 100vh;

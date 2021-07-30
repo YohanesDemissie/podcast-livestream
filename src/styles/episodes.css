@@ -1,3 +1,13 @@
+.title {
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	background-image: linear-gradient(black, rgb(41, 41, 41));
+	padding-top: 41px;
+	padding-bottom: 41px;
+}
+
 .episodes-container {
 	display: inline-block;
 	justify-content: space-around;
@@ -26,4 +36,14 @@
 
 .guest-link {
 	color: white;
+}
+
+@media only screen and (min-width: 731px) {
+	.episode-container {
+		margin-left: 160px;
+	}
+
+	.title {
+		margin-left: 160px;
+	}
 }

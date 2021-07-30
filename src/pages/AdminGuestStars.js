@@ -20,8 +20,9 @@ const AdminGuestStars = () => {
     alert('Your new Guest has been added to your podcast guest page. Thank you!');
   }
   return(
-    <div>
-      <form className="admin-form" onSubmit={uploadGuest}>
+    <div className="admin-form">
+      <h1>Upload Guests</h1>
+      <form onSubmit={uploadGuest}>
         <label className="admin-label" for="name">Name</label>
         <input className="admin-input" type="text" id="name" name="name" placeholder="name" />
         <label className="admin-label" for="occupation">Occupation</label>

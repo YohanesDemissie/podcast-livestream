@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 // import '../styles/guestStars.css'
 import '../styles/episodes.css';
+import Sidebar from './Sidebar.js';
 
 
 
@@ -26,6 +27,8 @@ const GuestStars = () => {
 
   return (
     <div>
+      <Sidebar />
+      <h1 className="title">Honorary Guests</h1>
       {guests.length > 0 ? (
         guests.map((guest) =>
         <div className="episodes-container" key={guest.key}>
