@@ -6,6 +6,7 @@ import Login from './Login';
 import Logout from './Logout';
 import AdminEpisodes from './AdminEpisodes';
 import AdminGuestStars from './AdminGuestStars';
+import AdminFatherhood from './AdminFatherhood';
 
 function Admin() {
   const [user, setUser] = useState('');
@@ -89,6 +90,7 @@ function Admin() {
             {/* <div className="admin-form-container"> */}
               <AdminEpisodes />
               <AdminGuestStars />
+              <AdminFatherhood />
             </div>
           </div>
         // </div>

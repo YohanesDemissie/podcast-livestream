@@ -11,7 +11,7 @@ const Episodes = () => {
     const subscriber = db.collection('episodes')
       .orderBy("episode", "desc").onSnapshot((querySnapshot) => {
       querySnapshot.forEach((doc) => {
-        getPostsFromFirebase.push({...doc.data(), key: doc.id,});
+        getPostsFromFirebase.push({...doc.data(), key: doc.id});
       });
       setPosts(getPostsFromFirebase);
     })

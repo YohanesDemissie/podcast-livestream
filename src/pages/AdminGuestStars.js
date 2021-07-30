@@ -6,8 +6,6 @@ const AdminGuestStars = () => {
     e.preventDefault();
 
     const guestsArray = [ ...e.target.elements];
-    console.log(guestsArray, 'GUESTS LIST');
-
     const guestData = guestsArray.reduce((accumulator, currentValue) => {
       if (currentValue.id) {
         accumulator[currentValue.id] = currentValue.value;

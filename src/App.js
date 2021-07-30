@@ -17,6 +17,7 @@ import fire from './firebase/config';
 
 import './App.css';
 import GuestStars from './pages/GuestStars';
+import FeaturesInFatherhood from './pages/FeaturesInFatherhood';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route path="/guest-stars">
             <GuestStars />
+          </Route>
+          <Route path="/features-in-fatherhood">
+            <FeaturesInFatherhood />
           </Route>
           </Switch>
       </Router>
