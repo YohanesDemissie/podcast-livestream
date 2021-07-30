@@ -23,13 +23,13 @@ const AdminFatherhood = () => {
     <div className="admin-form">
       <h1>Upload Fathers</h1>
       <form onSubmit={uploadFathers}>
-        <label className="admin-label" for="fathersName">Fathers Name</label>
+        <label className="admin-label" htmlFor="fathersName">Fathers Name</label>
         <input className="admin-input" type="text" id="fathersName" name="fathersName" placeholder=" Fathers Name" />
-        <label className="admin-label" for="imgURL">Image URL</label>
+        <label className="admin-label" htmlFor="imgURL">Image URL</label>
         <input className="admin-input" type="text" id="imgURL" name="imageURL" placeholder="image url" />
-        <label className="admin-label" for="familyMembers">Family Members</label>
+        <label className="admin-label" htmlFor="familyMembers">Family Members</label>
         <input className="admin-input" type="text" id="familyMembers" name="familyMembers" placeholder="family members" />
-        <label className="admin-label" for="description">Description</label>
+        <label className="admin-label" htmlFor="description">Description</label>
         <input className="admin-input" type="text" id="description" name="description" placeholder="Description" />
         <button className="admin-submit" type="submit">Upload</button>
 

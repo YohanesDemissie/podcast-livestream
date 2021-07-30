@@ -14,14 +14,14 @@ const Contact = () => {
         <h1 className="contact-title">Contact</h1>
         <form encType="multipart/form-data" action="https://formsubmit.co/yohanesdemissie@gmail.com" method="POST" className="contact-form">
 
-          <label className="contact-label" for="name">Name</label>
+          <label className="contact-label" htmlFor="name">Name</label>
             <input className="contact-input" type="text" id="name" name="name" placeholder="name" />
-            <label className="contact-label" for="emailAddress">Email Address</label>
+            <label className="contact-label" htmlFor="emailAddress">Email Address</label>
             <input className="contact-input" type="text" id="emailAddress" name="emailAddress" placeholder="email address"/>
             <input type="hidden" name="_next" value="http://localhost:3000/thankyou" />
-            <label className="contact-label" for="subject">Subject</label>
+            <label className="contact-label" htmlFor="subject">Subject</label>
             <input className="contact-input" type="text" id="subject" name="subject" placeholder="subject"/>
-            <label className="contact-label" for="message">Message</label>
+            <label className="contact-label" htmlFor="message">Message</label>
             <textarea className="contact-input" className="email-text-box" type="text" id="message" name="message" placeholder="type message here..."/>
             <button className="contact-submit" type="submit">Send</button>
         </form>
