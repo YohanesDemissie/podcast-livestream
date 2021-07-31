@@ -7,6 +7,8 @@ import Logout from './Logout';
 import AdminEpisodes from './AdminEpisodes';
 import AdminGuestStars from './AdminGuestStars';
 import AdminFatherhood from './AdminFatherhood';
+import AdminBlackExcellence from './AdminBlackExcellence';
+import AdminEvents from './AdminEvents';
 
 function Admin() {
   const [user, setUser] = useState('');
@@ -89,6 +91,8 @@ function Admin() {
             <AdminEpisodes />
             <AdminGuestStars />
             <AdminFatherhood />
+            <AdminBlackExcellence />
+            <AdminEvents />
           </div>
         </div>
       ) : (

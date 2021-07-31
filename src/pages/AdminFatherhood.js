@@ -32,7 +32,6 @@ const AdminFatherhood = () => {
         <label className="admin-label" htmlFor="description">Description</label>
         <input className="admin-input" type="text" id="description" name="description" placeholder="Description" />
         <button className="admin-submit" type="submit">Upload</button>
-
       </form>
     </div>
   )

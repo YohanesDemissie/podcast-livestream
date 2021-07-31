@@ -18,6 +18,8 @@ import fire from './firebase/config';
 import './App.css';
 import GuestStars from './pages/GuestStars';
 import FeaturesInFatherhood from './pages/FeaturesInFatherhood';
+import BlackExcellence from './pages/BlackExcellence';
+import Events from './pages/Events';
 
 function App() {
   return (
@@ -40,6 +42,12 @@ function App() {
           </Route>
           <Route path="/features-in-fatherhood">
             <FeaturesInFatherhood />
+          </Route>
+          <Route path="/black-excellence">
+            <BlackExcellence />
+          </Route>
+          <Route path="/events">
+            <Events />
           </Route>
           </Switch>
       </Router>
