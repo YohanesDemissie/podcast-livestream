@@ -6,7 +6,6 @@
 	background-image: linear-gradient(black, rgb(41, 41, 41));
 	padding-top: 41px;
 	padding-bottom: 41px;
-	margin-bottom: 50px;
 }
 
 .home-title {
@@ -50,11 +49,16 @@
 }
 
 @media only screen and (min-width: 731px) {
-	/* .episode-container {
-		margin-left: 160px;
-	} */
+	.contact-title {
+		text-align: left;
+	}
 
-	/* .title {
-		margin-left: 160px;
-	} */
+	.contact-form-container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		text-align: center;
+		justify-content: center;
+		margin-left: 30%;
+	}
 }

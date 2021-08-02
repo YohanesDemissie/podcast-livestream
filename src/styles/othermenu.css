@@ -1,6 +1,6 @@
 @media only screen and (max-width: 730px) {
 	.other-nav {
-		padding-top: 15px;
+		/* padding-top: 15px; */
 		margin-top: 15px;
 	}
 
@@ -24,6 +24,7 @@ position: sticky; */
 		/* overflow-x: visible; */
 		/* overflow: auto; */
 		padding-top: 20px;
+		margin-top: 30px;
 		/* margin-right: 50px; */
 		display: block;
 		/* flex-grow: 1; */

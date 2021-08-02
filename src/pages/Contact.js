@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <div>
       <Sidebar />
-      <div className="other-pages">
       <Title />
-        <div className="admin-form-container">
+      <div className="other-pages">
+        <div className="contact-form-container">
         <h1 className="contact-title">Contact</h1>
         <form encType="multipart/form-data" action="https://formsubmit.co/yohanesdemissie@gmail.com" method="POST" className="admin-form">
 
