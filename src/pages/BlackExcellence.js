@@ -23,7 +23,7 @@ const BlackExcellence = () => {
   }, []); //empty array so useEffect is only called once
 
   return (
-    <div>
+    <div className="other-pages">
       <Sidebar />
       <h1 className="title">Black Excellence</h1>
       {photos.length > 0 ? (

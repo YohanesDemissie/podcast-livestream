@@ -26,7 +26,7 @@ const GuestStars = () => {
   }, []); //empty array so useEffect is only called once
 
   return (
-    <div>
+    <div className="other-pages">
       <Sidebar />
       <h1 className="title">Honorary Guests</h1>
       {guests.length > 0 ? (

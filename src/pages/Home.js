@@ -7,9 +7,9 @@ import '../styles/home.css';
 
 const Home = () => {
   return (
-    <div>
+    <div className="other-pages">
       <Sidebar />
-      <div className="other-pages">
+      <div >
         <Title />
         <div className="home-container">
           <div className="header-container">

@@ -25,20 +25,22 @@ const Events = () => {
   return (
     <div>
       <Sidebar />
-      <h1 className="title">Events</h1>
-      {events.length > 0 ? (
-        events.map((event) =>
-        <div className="episodes-container" key={event.key}>
-          <div className="episode-container">
-          <h1>{event.title}</h1>
-          <img src={event.imgURL} alt="event-image" className="videos"/>
-            <p>{event.date}</p>
-            <p>{event.time}</p>
-            <p>{event.location}</p>
-            <p>{event.description}</p>
+      <div className="other-pages">
+        <h1 className="title">Events</h1>
+        {events.length > 0 ? (
+          events.map((event) =>
+          <div className="episodes-container" key={event.key}>
+            <div className="episode-container">
+            <h1>{event.title}</h1>
+            <img src={event.imgURL} alt="event-image" className="videos"/>
+              <p>{event.date}</p>
+              <p>{event.time}</p>
+              <p>{event.location}</p>
+              <p>{event.description}</p>
+            </div>
           </div>
-        </div>
-      )) : (<h1>Nothing Yet</h1>)}
+        )) : (<h1>Nothing Yet</h1>)}
+      </div>
     </div>
   )
 }

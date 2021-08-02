@@ -21,7 +21,7 @@ const AdminBlackExcellence = () => {
 
   return (
     <div className="admin-form">
-      <h1>Upload Black Excellence</h1>
+      <h1>Black Excellence</h1>
       <form onSubmit={uploadBlackExcellence}>
         <label className="admin-label" htmlFor="name">Name</label>
         <input className="admin-input" type="text" id="name" name="name" placeholder="Name" />

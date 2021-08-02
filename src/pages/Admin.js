@@ -87,12 +87,14 @@ function Admin() {
         <div>
           <Logout handleLogout={handleLogout} />
           <h1 className="admin-title">Administrative User Only</h1>
-          <div className="admin-forms-container">
-            <AdminEpisodes />
-            <AdminGuestStars />
-            <AdminFatherhood />
-            <AdminBlackExcellence />
-            <AdminEvents />
+          <div className="master-container">
+            <div className="admin-forms-container">
+              <AdminEpisodes />
+              <AdminGuestStars />
+              <AdminBlackExcellence />
+              <AdminEvents />
+              <AdminFatherhood />
+            </div>
           </div>
         </div>
       ) : (

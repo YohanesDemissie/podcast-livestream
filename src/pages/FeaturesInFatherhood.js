@@ -19,7 +19,7 @@ function FeaturesInFatherhood () {
   }, []);
   console.log(fathers.length, 'fathers length')
   return (
-    <div>
+    <div className="other-pages">
       <Sidebar />
       <h1 className="title">Features in Fatherhood</h1>
       {fathers.length > 0 ? (

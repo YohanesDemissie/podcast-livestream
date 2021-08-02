@@ -22,13 +22,13 @@ const Sidebar = () => {
       {view == true ? <MobileMenu /> :
         <div className="sidenav">
           <a href="/">Home</a>
-          <a className="first-list" href="/about">About</a>
-          <a href="/services">Services</a>
+          {/* <a href="/bio">Bio</a> */}
           <a href="/guest-stars">Guest Stars</a>
-          <a href="/contact">Contact</a>
           <a href="/features-in-fatherhood">Features In Fatherhood</a>
           <a href="/black-excellence">Black Excellence</a>
           <a href="/events">Events</a>
+          <a className="first-list" href="/about">About</a>
+          <a href="/contact">Contact</a>
         </div>
       }
     </div>
