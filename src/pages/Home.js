@@ -13,7 +13,7 @@ const Home = () => {
         <Title />
         <div className="home-container">
           <div className="header-container">
-          <img className="header-image" src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Asier%20Romero,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1469550122/zxrk1ld7jme7td4ziwqg.jpg" alt="soul" />
+          <img className="header-image" src="https://lh3.googleusercontent.com/pw/AM-JKLUh7j9dfIsj_ydO2O8m6lmhAnGKOE8uLk7oCd6FHdgvjoBBz0XeuWqnUQOr9mzuFpVOINWIRtYtZAcSLEgjvYPk2U_YchrXTOCrFs-Iyt1Sq3axyJ_xYCqIIM1LI6ht2BaFrKcsHzKq94bsXnnYGzsL=w1030-h1548-no?authuser=0" alt="soul" />
             <div className="header-titles-container">
               <p className="header-episode">Welcome to:</p>
               <p className="header-title">Hatcher Presence Podcast </p>
