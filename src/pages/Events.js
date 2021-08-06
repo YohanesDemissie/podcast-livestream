@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 import '../styles/episodes.css';
+import Footer from './Footer.js';
 import Sidebar from './Sidebar.js';
 
 const Events = () => {
@@ -39,8 +40,9 @@ const Events = () => {
               <p>{event.description}</p>
             </div>
           </div>
-        )) : (<h1>Nothing Yet</h1>)}
+        )) : (<h1>Loading...</h1>)}
       </div>
+      <Footer />
     </div>
   )
 }

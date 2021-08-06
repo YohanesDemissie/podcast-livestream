@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 import '../styles/episodes.css';
+import Footer from './Footer.js';
 import Sidebar from './Sidebar.js';
 
 function FeaturesInFatherhood () {
@@ -27,12 +28,13 @@ function FeaturesInFatherhood () {
           <div className="episodes-container" key={father.key}>
             <div className="episode-container">
               <h1>{father.fathersName}</h1>
-              <img style={{width: '200px'}} src={father.imgURL} alt="father image" />
+              <img src={father.imgURL}  className="guest-image" alt="father image" />
               <p>{father.familyMembers}</p>
               <p>{father.description}</p>
             </div>
           </div>
-        )) : (<h1>Nothing Yet</h1>)}
+        )) : (<h1>Loading...</h1>)}
+        <Footer />
     </div>
   )
 }

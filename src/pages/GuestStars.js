@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 // import '../styles/guestStars.css'
 import '../styles/episodes.css';
+import Footer from './Footer.js';
 import Sidebar from './Sidebar.js';
 
 
@@ -26,21 +27,24 @@ const GuestStars = () => {
   }, []); //empty array so useEffect is only called once
 
   return (
-    <div className="other-pages">
-      <Sidebar />
-      <h1 className="title">Honorary Guests</h1>
-      {guests.length > 0 ? (
-        guests.map((guest) =>
-        <div className="episodes-container" key={guest.key}>
-          <div className="episode-container">
-          <h1>{guest.name}</h1>
-          <img src={guest.imgURL} alt="guest-portrait" className="videos"/>
-            <p>{guest.occupation}</p>
-            <p>{guest.bio}</p>
-            <p>Contact {guest.name} by <a href={guest.social} className="guest-link">CLICKING HERE </a></p>
+    <div>
+      <div className="other-pages">
+        <Sidebar />
+        <h1 className="title">Honorary Guests</h1>
+        {guests.length > 0 ? (
+          guests.map((guest) =>
+          <div className="episodes-container" key={guest.key}>
+            <div className="episode-container">
+            <h1>{guest.name}</h1>
+            <img src={guest.imgURL} alt="guest-portrait" className="guest-image"/>
+              <h3>{guest.occupation}</h3>
+              <p>{guest.bio}</p>
+              { guest.social !== '' ? <p>Contact {guest.name} by <a href={guest.social} className="guest-link">CLICKING HERE </a></p> : null}
+            </div>
           </div>
-        </div>
-      )) : (<h1>Nothing Yet</h1>)}
+        )) : (<h1>Loading...</h1>)}
+      </div>
+      <Footer />
     </div>
   )
 }

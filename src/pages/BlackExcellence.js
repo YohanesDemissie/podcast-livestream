@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 import '../styles/episodes.css';
-import GuestStars from './GuestStars.js';
+import Footer from './Footer.js';
 import Sidebar from './Sidebar.js';
 
 const BlackExcellence = () => {
@@ -37,7 +37,8 @@ const BlackExcellence = () => {
               <p>Contact {photo.name} by <a href={photo.contact} className="guest-link">CLICKING HERE </a></p>
             </div>
           </div>
-      )) : (<h1>Nothing Yet</h1>)}
+      )) : (<h1>Loading...</h1>)}
+      <Footer />
     </div>
   )
 }

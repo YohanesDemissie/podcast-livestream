@@ -19,6 +19,7 @@
 }
 
 .episodes-container {
+	vertical-align: top;
 	display: inline-block;
 	justify-content: space-around;
 }
@@ -42,6 +43,11 @@
 	width: 200px;
 	height: 80px;
 	border: none;
+}
+
+.guest-image {
+	width: 200px;
+	border-radius: 10px;
 }
 
 .guest-link {

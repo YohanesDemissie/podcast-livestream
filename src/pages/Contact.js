@@ -4,13 +4,13 @@ import Title from './Title';
 // import '../styles/home.css';
 // import '../styles/contact.css';
 import '../styles/admin.css';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div>
+    <div className="other-pages">
       <Sidebar />
       <Title />
-      <div className="other-pages">
         <div className="contact-form-container">
         <h1 className="contact-title">Contact</h1>
         <form encType="multipart/form-data" action="https://formsubmit.co/yohanesdemissie@gmail.com" method="POST" className="admin-form">
@@ -58,9 +58,8 @@ const Contact = () => {
           </div>
 
         </form>*/}
+      </div>
     </div>
-      </div>
-      </div>
   )
 }
 
