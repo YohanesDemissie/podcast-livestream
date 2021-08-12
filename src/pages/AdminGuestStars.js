@@ -23,6 +23,8 @@ const AdminGuestStars = () => {
       <form onSubmit={uploadGuest}>
         <label className="admin-label" htmlFor="name">Name</label>
         <input className="admin-input" type="text" id="name" name="name" placeholder="name" />
+        <label className="admin-label" htmlFor="episode">Episode</label>
+        <input className="admin-input" type="number" id="episode" name="episode" placeholder="episode" />
         <label className="admin-label" htmlFor="occupation">Occupation</label>
         <input className="admin-input" type="text" id="occupation" name="occupation" placeholder="occupation"/>
         <label className="admin-label" htmlFor="imgURL">Image URL</label>

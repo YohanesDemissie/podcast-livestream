@@ -9,6 +9,7 @@ import AdminGuestStars from './AdminGuestStars';
 import AdminFatherhood from './AdminFatherhood';
 import AdminBlackExcellence from './AdminBlackExcellence';
 import AdminEvents from './AdminEvents';
+import AdminBlog from './AdminBlog';
 
 function Admin() {
   const [user, setUser] = useState('');
@@ -94,6 +95,7 @@ function Admin() {
               <AdminBlackExcellence />
               <AdminEvents />
               <AdminFatherhood />
+              <AdminBlog />
             </div>
           </div>
         </div>

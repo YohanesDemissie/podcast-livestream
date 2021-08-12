@@ -15,7 +15,7 @@ const GuestStars = () => {
   useEffect(() => {
     const getGuestsFromFirebase = [];
     const guestDatabase = db.collection('guests')
-      .orderBy("name", "desc").onSnapshot((querySnapshot) => {
+      .orderBy("episode", "desc").onSnapshot((querySnapshot) => {
       querySnapshot.forEach((doc) => {
         getGuestsFromFirebase.push({...doc.data(), key: doc.id,});
       });
@@ -35,6 +35,7 @@ const GuestStars = () => {
           guests.map((guest) =>
           <div className="episodes-container" key={guest.key}>
             <div className="episode-container">
+            <p>EPISODE: {guest.episode}</p>
             <h1>{guest.name}</h1>
             <img src={guest.imgURL} alt="guest-portrait" className="guest-image"/>
               <h3>{guest.occupation}</h3>

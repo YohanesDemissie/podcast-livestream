@@ -26,10 +26,21 @@
 
 .episode-container {
 	display: inline-block;
-	/* margin-left: 32px; */
 	padding: 32px;
 	width: 300px;
 	text-align: center;
+}
+
+.blog-container {
+	display: block;
+	padding: 32px;
+	width: 80%;
+	text-align: center;
+}
+
+.blog-image {
+	width: 40%;
+	border-radius: 10px;
 }
 
 .videos {

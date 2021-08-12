@@ -21,6 +21,7 @@ import FeaturesInFatherhood from './pages/FeaturesInFatherhood';
 import BlackExcellence from './pages/BlackExcellence';
 import Events from './pages/Events';
 import ThankYou from './pages/ThankYou';
+import Blog from './pages/Blog';
 
 function App() {
   return (
@@ -52,6 +53,9 @@ function App() {
           </Route>
           <Route path="/thankyou">
             <ThankYou />
+          </Route>
+          <Route path="/blog">
+            <Blog />
           </Route>
           </Switch>
       </Router>
