@@ -8,6 +8,10 @@
 
 @media only screen and (max-device-width: 730px) {
 	.mobile-menu-button {
+		display: initial;
+	}
+
+	.mobile-menu-button {
 		color: gray;
 		background-color: black;
 		border: none;
