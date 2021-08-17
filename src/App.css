@@ -19,8 +19,8 @@ body {
 	overflow: auto;
 }
 
-.div {
-	background-color: none;
+div {
+	background-color: black;
 }
 
 .app-container {
