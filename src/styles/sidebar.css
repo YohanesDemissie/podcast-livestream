@@ -2,14 +2,18 @@
 	display: none;
 }
 
+.mobile-menu-button {
+	display: none;
+}
+
 @media only screen and (max-device-width: 730px) {
 	.mobile-menu-button {
 		color: gray;
 		background-color: black;
 		border: none;
-		padding-top: 10px;
+		padding-top: 15px;
 		padding-left: 20px;
-		/* padding-bottom: 30px; */
+		padding-bottom: 10px;
 		width: 100%;
 		text-align: left;
 		font-size: 20px;
