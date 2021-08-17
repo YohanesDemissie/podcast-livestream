@@ -19,6 +19,10 @@ body {
 	overflow: auto;
 }
 
+.div {
+	background-color: none;
+}
+
 .app-container {
 	background-size: cover;
 	background-repeat: no-repeat;

@@ -15,7 +15,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div>
+    <div className="side-bar-container">
       <button className="mobile-menu-button" onClick={handleClick}>
         Menu
       </button>
