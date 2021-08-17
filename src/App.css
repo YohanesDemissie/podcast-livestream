@@ -3,11 +3,10 @@ html {
 	background-size: cover;
 	background-repeat: no-repeat;
 
+	background-color: #111;
 	height: 100%;
 	overflow: auto;
 	color: white;
-	/* overflow: hidden; */
-	/* height: 100%; */
 }
 
 body {
@@ -15,12 +14,9 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 
+	background-color: #111;
 	height: 100%;
 	overflow: auto;
-}
-
-div {
-	background-color: black;
 }
 
 .app-container {

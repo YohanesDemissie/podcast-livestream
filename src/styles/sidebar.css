@@ -6,7 +6,20 @@
 	display: none;
 }
 
+.mobile-menu-button {
+	display: none;
+}
+
+.side-bar-container {
+	background-color: yellow;
+	color: white;
+}
+
 @media only screen and (max-device-width: 730px) {
+	.side-bar-container {
+		background-color: black;
+		color: white;
+	}
 	.mobile-menu-button {
 		display: initial;
 	}

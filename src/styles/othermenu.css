@@ -1,10 +1,14 @@
-@media only screen and (max-width: 730px) {
+@media only screen and (max-device-width: 730px) {
 	/* .other-nav {
 		padding-top: 15px;
 		margin-top: 15px;
 		padding: 0;
 		border: none;
 	} */
+
+	.side-bar-container {
+		background-color: yellow;
+	}
 
 	.other-nav {
 		background-image: linear-gradient(black, gray);
@@ -21,6 +25,7 @@
 		margin-top: 40px;
 		display: block;
 		margin-right: 32px;
+		/* background-color: yellow; */
 	}
 
 	.other-nav a {

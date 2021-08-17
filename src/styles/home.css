@@ -14,6 +14,7 @@
 
 .header-container {
 	background-image: linear-gradient(rgb(36, 67, 206), rgb(0, 0, 82));
+	background-color: #111;
 	padding-bottom: 30px;
 	padding-top: 50px;
 }
