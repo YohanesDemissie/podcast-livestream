@@ -1,33 +1,25 @@
 @media only screen and (max-width: 730px) {
-	.other-nav {
-		/* padding-top: 15px; */
+	/* .other-nav {
+		padding-top: 15px;
 		margin-top: 15px;
-	}
+		padding: 0;
+		border: none;
+	} */
 
 	.other-nav {
+		background-image: linear-gradient(black, gray);
 		color: white;
 		width: 160px;
 		height: 100vh;
-
-		/* position: absolute; */
 		bottom: 0;
-		/* position: sticky; */
-		/* position: absolute;
-position: fixed;
-position: sticky; */
 		position: fixed;
 		float: left;
 		top: 0px;
 		left: 0px;
-		/* right: 0px; */
 		background-color: #111;
-		/* overflow-x: visible; */
-		/* overflow: auto; */
 		padding-top: 20px;
-		margin-top: 30px;
-		/* margin-right: 50px; */
+		margin-top: 40px;
 		display: block;
-		/* flex-grow: 1; */
 		margin-right: 32px;
 	}
 
@@ -38,6 +30,4 @@ position: sticky; */
 		color: #818181;
 		display: inline-block;
 	}
-
-	/* .mobile-menu; */
 }

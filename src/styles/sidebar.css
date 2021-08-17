@@ -3,6 +3,18 @@
 }
 
 @media only screen and (max-device-width: 730px) {
+	.mobile-menu-button {
+		color: gray;
+		background-color: black;
+		border: none;
+		padding-top: 10px;
+		padding-left: 20px;
+		/* padding-bottom: 30px; */
+		width: 100%;
+		text-align: left;
+		font-size: 20px;
+	}
+
 	.mobile-menu {
 		/* position: absolute; */
 		z-index: 1;
