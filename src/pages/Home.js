@@ -17,7 +17,7 @@ const Home = () => {
             <div className="header-titles-container">
               <p className="header-episode">Welcome to:</p>
               <p className="header-title">Hatch's Presence Podcast </p>
-              <p className="header-subtitle">Food for thought - Knowledge & Empowerment.</p>
+              <p className="header-subtitle">You don't have to be perfect, but you have to be present...</p>
             </div>
           </div>
 
