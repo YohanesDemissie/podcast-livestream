@@ -2,10 +2,8 @@ import React from 'react';
 import Title from './Title';
 import Episodes from './Episodes';
 import Sidebar from './Sidebar';
-import MobileMenu from './MobileMenu';
 import '../styles/home.css';
 import Footer from './Footer';
-import MarkHatcher from '../assets/mark-hatcher.jpeg';
 
 const Home = () => {
   return (
