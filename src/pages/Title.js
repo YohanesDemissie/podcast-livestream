@@ -3,7 +3,7 @@ import '../styles/episodes.css';
 
 const Title = () => {
   return (
-    <h1 className="title">Presence Over Perfection</h1>
+    <h1 className="title">Hatch's Presence Podcast</h1>
   )
 }
 
