@@ -24,16 +24,16 @@ const Episodes = () => {
     <div>
       {posts.length > 0 ? (
         posts.map((post) =>
-        <div className="episodes-container" key={post.key}>
-          <div className="episode-container">
-            <p>EPISODE: {post.episode}</p>
-            <h1>{post.title}</h1>
-            <p>Starring: {post.guestStar}</p>
-            <iframe className="videos" width="200" height="200" src={post.embedVideoURL} allow="fullscreen"></iframe>
-            <iframe className="audios" allow="autoplay" src={post.embedAudioURL}></iframe>
+      <div className="episodes-container" key={post.key}>
+            <div className="episode-container">
+              <p>EPISODE: {post.episode}</p>
+              <h1>{post.title}</h1>
+              <p>Starring: {post.guestStar}</p>
+              <iframe className="videos" width="200" height="200" src={post.embedVideoURL} allow="fullscreen"></iframe>
+              <iframe className="audios" allow="autoplay" src={post.embedAudioURL}></iframe>
+            </div>
           </div>
-        </div>
-      )) : (<h1>Loading...</h1>)}
+              )) : (<h1>Loading...</h1>)}
     </div>
   )
 }
