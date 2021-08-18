@@ -71,9 +71,6 @@
 	color: white;
 }
 
-@media only screen and (max-device-width) {
-}
-
 @media only screen and (min-device-width: 731px) {
 	.contact-title {
 		text-align: left;
@@ -91,5 +88,17 @@
 		text-align: center;
 		justify-content: center;
 		margin-left: 30%;
+	}
+}
+
+@media only screen and (max-device-width: 1025px) {
+	.episodes-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.episode-container {
+		width: 300px;
+		/* height: 100%; */
 	}
 }
