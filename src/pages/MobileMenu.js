@@ -3,15 +3,19 @@ import '../styles/othermenu.css';
 
 const MobileMenu = () => {
   return(
-      <div className="other-nav">
-        <a href="/">Home</a>
-        <a href="/guest-stars">Guest Stars</a>
-        <a href="/features-in-fatherhood">Features In Fatherhood</a>
-        <a href="/black-excellence">Black Excellence</a>
-        <a href="/events">Events</a>
-        <a className="first-list" href="/about">About</a>
-        <a href="/contact">Contact</a>
-      </div>
+      <nav className="other-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/guest-stars">Guest Stars</a></li>
+          <li><a href="/features-in-fatherhood">Features In Fatherhood</a></li>
+          <li><a href="/black-excellence">Black Excellence</a></li>
+          <li><a href="/events">Events</a></li>
+          <li><a className="first-list" href="/about">About</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li></li>
+        </ul>
+      </nav>
   )
 }
 

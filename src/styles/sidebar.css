@@ -15,6 +15,14 @@
 	color: white;
 }
 
+ul {
+	padding-left: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
 @media only screen and (max-device-width: 730px) {
 	.side-bar-container {
 		background-color: black;
