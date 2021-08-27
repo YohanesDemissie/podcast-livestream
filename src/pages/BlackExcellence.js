@@ -23,23 +23,23 @@ const BlackExcellence = () => {
   }, []); //empty array so useEffect is only called once
 
   return (
-    <div className="other-pages">
+    <section className="other-pages">
       <Sidebar />
       <h1 className="title">Black Excellence</h1>
       {photos.length > 0 ? (
         photos.map((photo) =>
-          <div className="episodes-container" key={photo.key}>
+          <article className="episodes-container" key={photo.key}>
             <div className="episode-container">
               <h1>{photo.name}</h1>
-              <img src={photo.imgURL} alt="black excellence" style={{width: '200px'}}/>
+              <img src={photo.imgURL} alt="black excellence" style={{width: '200px', borderRadius: '10px'}}/>
               <p>{photo.occupation}</p>
               <p>{photo.description}</p>
               <p>Contact {photo.name} by <a href={photo.contact} className="guest-link">CLICKING HERE </a></p>
             </div>
-          </div>
+          </article>
       )) : (<h1>Loading...</h1>)}
       <Footer />
-    </div>
+    </section>
   )
 }
 

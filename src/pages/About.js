@@ -25,30 +25,7 @@ const About = () => {
             <p className="episode-description"> 
               Mark Hatcher has been employed by Amazon since July of 2017. He currently serves as a Global Sales Account Manager where he leads a team of three building out the Amazon Turkey Marketplace. Prior to his current position, Mark served as a Sr. Strategic Account Manager on the Strategic Account Services (SAS) Core Team where he managed a portfolio of 3P Sellers totaling $480-MM US TTM GMS. When he is not moderating discussions as member of the Amazon Black Employment Network (BEN), this Detroit native serves as Volunteer Engagement Champion for Connect@Amazon, a Conscious Fathering Instructor for Parent Trust, a Seattle non-profit and an associate professor of Leadership and Management at Central Washington University. Prior to joining Amazon, Mark held leadership roles of progressive responsibility at Coca-Cola, Microsoft, Cintas, Florida Power & Light, Harley-Davidson Motor Company and the Seattle Seahawks. He resides in the Beacon Hill area of Seattle with his wife Nolana and three children: Safiyah (18), Omar (16) and Maris (5).
             </p>
-
-                   <p className="episode-description"> Here we put in a background story and humble beginnings of your podcast, the purpuse, your vision and what you intend this podcast to bring to the rest of the world.
-              asdfadsfadsfad sfadsfa
-              dsfadsfasdfa dsfa
-              sdfadsfadfa dsfadfadfadsf
-              adfasdfasdf adsfadsfadfadsfadsfadfadsf
-              adfadsfadf adsfadsfadsfadsfadsfadsf adsfadsfadsfadfadsf
-              adsfadsfa dsfasdfasdfads fadsfadsfa dsfasdfadsfadsfadsf
-              asdfdasd fadsfasdfadsfad sfadfasdfadsfadsfadsfas dfasdfasdf
-              adsfadsfad sfadsfadsfadsfasd fasdfasdfadsfasdf asdfasdfasdf
-            </p>
-
-                  <p className="episode-description"> Here we put in a background story and humble beginnings of your podcast, the purpuse, your vision and what you intend this podcast to bring to the rest of the world.
-              asdfadsfadsfad sfadsfa
-              dsfadsfasdfa dsfa
-              sdfadsfadfa dsfadfadfadsf
-              adfasdfasdf adsfadsfadfadsfadsfadfadsf
-              adfadsfadf adsfadsfadsfadsfadsfadsf adsfadsfadsfadfadsf
-              adsfadsfa dsfasdfasdfads fadsfadsfa dsfasdfadsfadsfadsf
-              asdfdasd fadsfasdfadsfad sfadfasdfadsfadsfadsfas dfasdfasdf
-              adsfadsfad sfadsfadsfadsfasd fasdfasdfadsfasdf asdfasdfasdf
-            </p>
           </div>
-
         </div>
       </div>
       <Footer />

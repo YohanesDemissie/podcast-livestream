@@ -25,20 +25,20 @@ const Blog = () => {
   return (
     <div>
       <Sidebar />
-      <div className="other-pages">
-        <h1 className="title">Hatche's Blog</h1>
+      <section className="other-pages">
+        <h1 className="title">Hatch's Blog</h1>
         {posts.length > 0 ? (
           posts.map((post) =>
-          <div className="episodes-container" key={post.key}>
+          <article className="episodes-container" key={post.key}>
             <div className="blog-container">
               <p>CHAPTER: {post.chapter}</p>
               <h1>{post.title}</h1>
               <img className="blog-image"  src={post.image} alt="blog image"/>
               <p>{post.blog}</p>
             </div>
-          </div>
+          </article>
         )) : (<h1>Loading...</h1>)}
-      </div>
+      </section>
       <Footer />
     </div>
   )
