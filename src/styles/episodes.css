@@ -44,6 +44,10 @@
 	text-align: center;
 }
 
+.admin-input {
+	word-wrap: break-word;
+}
+
 .blog-image {
 	width: 40%;
 	border-radius: 10px;

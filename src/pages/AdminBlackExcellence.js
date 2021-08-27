@@ -30,7 +30,7 @@ const AdminBlackExcellence = () => {
         <label className="admin-label" htmlFor="occupation">Occupation/Event</label>
         <input className="admin-input" type="text" id="occupation" name="occupation" placeholder="occupation/event" />
         <label className="admin-label" htmlFor="description">Description</label>
-        <input className="admin-input" type="text" id="description" name="description" placeholder="Description" />
+        <textarea className="admin-input" type="text" id="description" name="description" placeholder="Description"></textarea>
         <label className="admin-label" htmlFor="contact">Website/Social Media URL</label>
         <input className="admin-input" type="text" id="contact" name="contact" placeholder="social media or business website" />
         <button className="admin-submit" type="submit">Upload</button>

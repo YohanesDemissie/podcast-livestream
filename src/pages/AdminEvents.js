@@ -35,7 +35,7 @@ const AdminEvents = () => {
         <label className="admin-label" htmlFor="location">Location</label>
         <input className="admin-input" type="text" id="location" name="location" placeholder="address or location" />
         <label className="admin-label" htmlFor="description">Description</label>
-        <input className="admin-input" type="text" id="description" name="description" placeholder="Description" />
+        <textarea className="admin-input" type="text" id="description" name="description" placeholder="Description"></textarea>
         <button className="admin-submit" type="submit">Upload</button>
       </form>
     </div>

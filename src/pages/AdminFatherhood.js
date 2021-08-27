@@ -30,7 +30,7 @@ const AdminFatherhood = () => {
         <label className="admin-label" htmlFor="familyMembers">Family Members</label>
         <input className="admin-input" type="text" id="familyMembers" name="familyMembers" placeholder="family members" />
         <label className="admin-label" htmlFor="description">Description</label>
-        <input className="admin-input" type="text" id="description" name="description" placeholder="Description" />
+        <textarea className="admin-input" type="text" id="description" name="description" placeholder="Description"></textarea>
         <button className="admin-submit" type="submit">Upload</button>
       </form>
     </div>

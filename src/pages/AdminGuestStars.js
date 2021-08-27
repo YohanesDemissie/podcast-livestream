@@ -30,7 +30,7 @@ const AdminGuestStars = () => {
         <label className="admin-label" htmlFor="imgURL">Image URL</label>
         <input className="admin-input" type="text" id="imgURL" name="imgURL" placeholder="copy image URL here"/>
         <label className="admin-label" htmlFor="bio">Bio</label>
-        <input className="admin-input" type="text" id="bio" name="bio" placeholder="Create Bio"/>
+        <textarea className="admin-input" type="text" id="bio" name="bio" placeholder="Create Bio"></textarea>
         <label className="admin-label" htmlFor="social">Social</label>
         <input className="admin-input" type="text" id="social" name="social" placeholder="enter social media URL"/>
         <button className="admin-submit" type="submit">Upload</button>
