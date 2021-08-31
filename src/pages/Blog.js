@@ -5,9 +5,10 @@ import Sidebar from './Sidebar';
 import Footer from './Footer.js';
 
 const Blog = () => {
+  let tester = [];
+  let testerTwo = tester.toString().split(" ");
   // const [loading, setLoading] = useState(true);
   const [posts, setPosts] = useState([]);
-
   useEffect(() => {
     const getPostsFromFirebase = [];
     const subscriber = db.collection('blog')
@@ -33,10 +34,13 @@ const Blog = () => {
             <div className="blog-container">
               <p>CHAPTER: {post.chapter}</p>
               <h1>{post.title}</h1>
-              <img className="blog-image"  src={post.image} alt="blog image"/>
+              {/* {forEach(post.image) => } */}
+              <img className="blog-image"  src={[...post.image]} alt="blog image"/>
               <p>{post.blog}</p>
             </div>
-          </article>
+            {tester.push(post.image), testerTwo.push(tester.toString()), testerTwo.map((i) => <div key={i.key}><img src={i} /></div> ), console.log(testerTwo, 'TESTER 2')}
+            {}
+          </article>,
         )) : (<h1>Loading...</h1>)}
       </section>
       <Footer />

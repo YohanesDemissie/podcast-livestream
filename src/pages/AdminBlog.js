@@ -8,7 +8,6 @@ const AdminBlog = () => {
     e.preventDefault();
 
     const elementsArray = [...e.target.elements];
-    console.log(elementsArray);
 
     const formData = elementsArray.reduce((accumulator, currentValue) => {
      if (currentValue.id) {
@@ -18,6 +17,7 @@ const AdminBlog = () => {
     }, {});
     console.log({formData})
     db.collection("blog").add(formData);
+    console.log(formData, 'asdfadsfds')
     e.target.reset();
     alert('Your new Episode has been added to your podcast. Thank you!')
   }
@@ -32,7 +32,7 @@ const AdminBlog = () => {
         <label className="admin-label" htmlFor="blog">Blog</label>
         <textarea className="admin-input" type="text" id="blog" name="blog" placeholder="type blog here"></textarea>
         <label className="admin-label" htmlFor="image">Image</label>
-        <input className="admin-input" type="text" id="image" name="image" placeholder="image URL"/>
+        <input className="admin-input" type="text" id="image" name="image[]" placeholder="image URL"/>
         <button className="admin-submit" type="submit">Upload</button>
       </form>
     </div>
