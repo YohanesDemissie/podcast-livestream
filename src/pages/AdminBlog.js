@@ -32,7 +32,7 @@ const AdminBlog = () => {
         <label className="admin-label" htmlFor="blog">Blog</label>
         <textarea className="admin-input" type="text" id="blog" name="blog" placeholder="type blog here"></textarea>
         <label className="admin-label" htmlFor="image">Image</label>
-        <input className="admin-input" type="text" id="image" name="image[]" placeholder="image URL"/>
+        <input className="admin-input" type="text" id="image" name="image" placeholder="image URL"/>
         <button className="admin-submit" type="submit">Upload</button>
       </form>
     </div>
