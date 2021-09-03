@@ -35,21 +35,18 @@ const Blog = () => {
         <h1 className="title">Hatch's Blog</h1>
 
         {posts.length > 0 ? (
-              posts.map((post) =>
-                <article key={post.key} className="episodes-container">
-                  {console.log(post.key, 'POST KEY')}
-                  <div className="blog-container" id="photos">
-                    <p>CHAPTER: {post.chapter}</p>
-                    <h1>{post.title}</h1>
-                    <p>{post.blog}</p>
-                    {console.log(post.image.toString().split(" "), 'NEW SHIT')}
-                    {post.image.toString().split(" ").map((i) => (
-                      <img src={i} />
-                    ))}
-                    {/* {console.log(post.image, 'NEW SHIT')} */}
-                  </div>
-                </article>
-              )
+          posts.map((post) =>
+            <article key={post.key} className="episodes-container">
+              <div className="blog-container" id="photos">
+                <p>CHAPTER: {post.chapter}</p>
+                <h1>{post.title}</h1>
+                <p>{post.blog}</p>
+                {post.image.toString().split(" ").map((i) => (
+                  <img style={{width: '350px'}} src={i} />
+                ))}
+                </div>
+              </article>
+            )
           ) : (<h1>Loading...</h1>)
         }
           {/* {photos.map((i) => (
