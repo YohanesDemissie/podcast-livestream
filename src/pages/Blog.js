@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
 import '../styles/episodes.css';
+import '../styles/blog.css';
 import Sidebar from './Sidebar';
 import Footer from './Footer.js';
 
@@ -41,9 +42,14 @@ const Blog = () => {
                 <p>CHAPTER: {post.chapter}</p>
                 <h1>{post.title}</h1>
                 <p>{post.blog}</p>
+
+                <div className="grid" >
                 {post.image.toString().split(" ").map((i) => (
-                  <img style={{width: '350px'}} src={i} />
+                  <div className="sub-grid">
+                  <img style={{width: '350px'}} className="blog-images" src={i} />
+                  </div>
                 ))}
+                </div>
                 </div>
               </article>
             )
