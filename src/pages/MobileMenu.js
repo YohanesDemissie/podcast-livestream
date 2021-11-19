@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/othermenu.css';
+import '../styles/mobileMenu.css';
 
 const MobileMenu = () => {
   return(
-      <nav className="other-nav">
+      <nav className="mobile-menu">
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/guest-stars">Guest Stars</a></li>

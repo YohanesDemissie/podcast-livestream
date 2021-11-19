@@ -28,7 +28,7 @@ const GuestStars = () => {
 
   return (
     <div>
-      <div className="other-pages">
+      <div className="sidemenu-margin">
         <Sidebar />
         <h1 className="title">Honorary Guests</h1>
         {guests.length > 0 ? (

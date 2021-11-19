@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 const Contact = () => {
   return (
-    <div className="other-pages">
+    <div className="sidemenu-margin">
       <Sidebar />
       <Title />
         <div className="contact-form-container">

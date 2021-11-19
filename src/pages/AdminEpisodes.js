@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { db } from '../firebase/config';
+import '../styles/admin.css';
 
 const AdminEpisodes = () => {
     const uploadContent = (e) => {

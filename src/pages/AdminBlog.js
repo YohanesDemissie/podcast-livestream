@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { db } from '../firebase/config';
-import '../styles/episodes.css';
+import '../styles/admin.css';
 
 const AdminBlog = () => {
 
@@ -15,9 +15,9 @@ const AdminBlog = () => {
       }
       return accumulator;
     }, {});
-    console.log({formData})
+    console.log({formData});
     db.collection("blog").add(formData);
-    console.log(formData, 'asdfadsfds')
+    console.log(formData, 'TESTING FORM DATA');
     e.target.reset();
     alert('Your new Episode has been added to your podcast. Thank you!')
   }
@@ -32,7 +32,7 @@ const AdminBlog = () => {
         <label className="admin-label" htmlFor="blog">Blog</label>
         <textarea className="admin-input" type="text" id="blog" name="blog" placeholder="type blog here"></textarea>
         <label className="admin-label" htmlFor="image">Image</label>
-        <input className="admin-input" type="text" id="image" name="image" placeholder="image URL"/>
+        <textarea className="admin-input" type="text" id="image" name="image" placeholder="place single space after each image URL: www.image1.com www.image2.com www.image3.com"></textarea>
         <button className="admin-submit" type="submit">Upload</button>
       </form>
     </div>

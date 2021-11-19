@@ -1,5 +1,4 @@
-import React, { useState, useEffect} from 'react';
-import fire from '../firebase/config';
+import React from 'react';
 import '../styles/admin.css'
 
 const Login = (props) => {

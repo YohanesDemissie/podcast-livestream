@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { db } from '../firebase/config';
-import '../styles/episodes.css';
+import '../styles/admin.css';
 
 const AdminFatherhood = () => {
   const uploadFathers = (e) => {

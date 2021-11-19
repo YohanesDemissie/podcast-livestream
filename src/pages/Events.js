@@ -26,7 +26,7 @@ const Events = () => {
   return (
     <div>
       <Sidebar />
-      <div className="other-pages">
+      <div className="sidemenu-margin">
         <h1 className="title">Events</h1>
         {events.length > 0 ? (
           events.map((event) =>

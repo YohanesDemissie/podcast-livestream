@@ -1,8 +1,4 @@
-.sidenav {
-	display: none;
-}
-
-.mobile-menu-button {
+.main-menu {
 	display: none;
 }
 
@@ -23,16 +19,10 @@ li {
 	list-style-type: none;
 }
 
+/* DROP DOWN MOBILE MENU BUTTON */
 @media only screen and (max-device-width: 730px) {
-	.side-bar-container {
-		background-color: black;
-		color: white;
-	}
 	.mobile-menu-button {
 		display: initial;
-	}
-
-	.mobile-menu-button {
 		color: gray;
 		background-color: black;
 		border: none;
@@ -43,75 +33,37 @@ li {
 		text-align: left;
 		font-size: 20px;
 	}
-
-	.mobile-menu {
-		/* position: absolute; */
-		z-index: 1;
-		display: block;
-		color: grey;
-		/* padding: 10px; */
-		font-size: 20px;
-		border: none;
-		/* margin-bottom: 40px; */
-		text-align: center;
-		/* margin-left: 10px; */
-		/* margin-left: 10px; */
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 25px;
-		margin-top: 0px;
-		background-color: black;
-		/* display: inline-flex; */
-		z-index: 1;
-		padding-right: 100%;
-	}
 }
 
 .first-list {
 	margin-top: 20px;
 }
 
+/* DESKTOP MENU */
 @media only screen and (min-width: 731px) {
-	.mobile-menu {
-		display: none;
-	}
-
-	.sidenav {
+	.main-menu {
 		width: 160px;
 		height: 100vh;
-
-		/* position: absolute; */
 		bottom: 0;
-		/* position: sticky; */
-		/* position: absolute;
-position: fixed;
-position: sticky; */
 		position: fixed;
 		float: left;
 		top: 0px;
 		left: 0px;
-		/* right: 0px; */
 		background-color: #111;
-		/* overflow-x: visible; */
-		/* overflow: auto; */
-		/* padding-top: 200px; */
-		/* margin-right: 50px; */
 		display: block;
-		/* flex-grow: 1; */
 		margin-right: 32px;
 		padding-top: 40px;
 	}
 
-	.sidenav a {
-		/* padding-top: 500px; */
+	.main-menu a {
 		padding: 5px 8px 6px 16px;
 		text-decoration: none;
 		font-size: 25px;
 		color: #818181;
 		display: inline-block;
-		/* padding-top: 400px; */
 	}
 
-	.sidenav a:hover {
+	.main-menu a:hover {
 		color: #f1f1f1;
 	}
 }

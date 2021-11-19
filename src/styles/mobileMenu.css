@@ -1,9 +1,26 @@
-.mobile-menu-container {
-	display: none;
-}
+@media only screen and (max-device-width: 730px) {
+	.mobile-menu {
+		background-image: linear-gradient(black, gray);
+		color: white;
+		width: 160px;
+		height: 100vh;
+		bottom: 0;
+		position: fixed;
+		float: left;
+		top: 0px;
+		left: 0px;
+		background-color: #111;
+		padding-top: 20px;
+		margin-top: 40px;
+		display: block;
+		margin-right: 32px;
+	}
 
-@media only screen and (max-width: 730px) {
-	.mobile-menu-container {
+	.mobile-menu a {
+		padding: 6px 8px 6px 16px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
 		display: inline-block;
 	}
 }

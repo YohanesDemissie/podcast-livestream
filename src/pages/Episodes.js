@@ -4,16 +4,16 @@ import '../styles/episodes.css';
 
 const Episodes = () => {
   // const [loading, setLoading] = useState(true);
-  const [posts, setPosts] = useState([]);
+  const [chapters, setChapters] = useState([]);
 
   useEffect(() => {
-    const getPostsFromFirebase = [];
+    const getChaptersFromFirebase = [];
     const subscriber = db.collection('episodes')
       .orderBy("episode", "desc").onSnapshot((querySnapshot) => {
       querySnapshot.forEach((doc) => {
-        getPostsFromFirebase.push({...doc.data(), key: doc.id});
+        getChaptersFromFirebase.push({...doc.data(), key: doc.id});
       });
-      setPosts(getPostsFromFirebase);
+      setChapters(getChaptersFromFirebase);
     })
     //firebase returns a cleanup function with the line below
     return () => subscriber();
@@ -22,15 +22,15 @@ const Episodes = () => {
 
   return (
     <div>
-      {posts.length > 0 ? (
-        posts.map((post) =>
-      <div className="episodes-container" key={post.key}>
+      {chapters.length > 0 ? (
+        chapters.map((chapter) =>
+      <div className="episodes-container" key={chapter.key}>
             <div className="episode-container">
-              <p>EPISODE: {post.episode}</p>
-              <h1>{post.title}</h1>
-              <p>Starring: {post.guestStar}</p>
-              <iframe className="videos" width="200" height="200" src={post.embedVideoURL} allow="fullscreen"></iframe>
-              <iframe className="audios" allow="autoplay" src={post.embedAudioURL}></iframe>
+              <p>EPISODE: {chapter.episode}</p>
+              <h1>{chapter.title}</h1>
+              <p>Starring: {chapter.guestStar}</p>
+              <iframe className="videos" width="200" height="200" src={chapter.embedVideoURL} allow="fullscreen"></iframe>
+              <iframe className="audios" allow="autoplay" src={chapter.embedAudioURL}></iframe>
             </div>
           </div>
               )) : (<h1>Loading...</h1>)}

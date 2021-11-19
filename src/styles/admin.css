@@ -1,14 +1,14 @@
-.master-container {
-	/* display: flex; */
-	/* justify-content: center; */
+.admin-logout {
+	margin: 20px;
+	font-size: 16px;
+}
+
+.admin-title {
+	text-align: center;
 }
 
 .admin-forms-container {
 	display: inline-block;
-	text-align: center;
-}
-
-.admin-title {
 	text-align: center;
 }
 
@@ -36,6 +36,7 @@
 	margin-top: 10px;
 }
 
+/* CONTACTS PAGE BELOW */
 .contact-title {
 	margin-left: 32px;
 }

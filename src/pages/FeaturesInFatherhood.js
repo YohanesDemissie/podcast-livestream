@@ -20,7 +20,7 @@ function FeaturesInFatherhood () {
   }, []);
   console.log(fathers.length, 'fathers length')
   return (
-    <div className="other-pages">
+    <div className="sidemenu-margin">
       <Sidebar />
       <h1 className="title">Features in Fatherhood</h1>
       {fathers.length > 0 ? (

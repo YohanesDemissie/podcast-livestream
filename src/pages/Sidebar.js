@@ -4,7 +4,6 @@ import '../styles/sidebar.css';
 
 const Sidebar = () => {
   const [view, setView] = useState(false);
-  // let element;
   const handleClick = () => {
     if(view == false) {
       setView(true)
@@ -21,7 +20,7 @@ const Sidebar = () => {
         Menu
       </button>
       {view == true ? <MobileMenu /> :
-        <nav className="sidenav">
+        <nav className="main-menu">
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/guest-stars">Featured Guests</a></li>

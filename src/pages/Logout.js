@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/logout.css';
+import '../styles/admin.css';
 
 const Logout = ({handleLogout}) => {
   return(

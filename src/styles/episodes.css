@@ -9,17 +9,6 @@
 	padding-bottom: 41px;
 }
 
-.home-title {
-	font-size: 60px;
-	color: white;
-	text-align: center;
-	margin: 0px;
-	background-image: linear-gradient(black, rgb(41, 41, 41));
-	background-color: #111;
-	padding-top: 41px;
-	padding-bottom: 41px;
-}
-
 .episodes-container {
 	vertical-align: top;
 	display: inline-flex;
@@ -31,8 +20,6 @@
 	display: block;
 	padding: 32px;
 	justify-content: center;
-	/* padding-top: 32px; */
-	/* padding-bottom: 32px; */
 	width: 300px;
 	text-align: center;
 }

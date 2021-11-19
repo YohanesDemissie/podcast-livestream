@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { db } from '../firebase/config.js';
-import '../styles/episodes.css';
+// import '../styles/episodes.css';
 import '../styles/blog.css';
 import Sidebar from './Sidebar';
 import Footer from './Footer.js';
@@ -32,7 +32,7 @@ const Blog = () => {
   return (
     <div>
       <Sidebar />
-      <section className="other-pages">
+      <section className="sidemenu-margin">
         <h1 className="title">Hatch's Blog</h1>
 
         {posts.length > 0 ? (
@@ -46,7 +46,7 @@ const Blog = () => {
                 <div className="grid" >
                 {post.image.toString().split(" ").map((i) => (
                   <div className="sub-grid">
-                  <img style={{width: '350px'}} className="blog-images" src={i} />
+                  <img className="blog-images" src={i} />
                   </div>
                 ))}
                 </div>
