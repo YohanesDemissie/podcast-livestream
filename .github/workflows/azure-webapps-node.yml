@@ -19,7 +19,7 @@
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "clean-code" ]
   workflow_dispatch:
 
 env:
