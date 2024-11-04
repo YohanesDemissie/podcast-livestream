@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -25,7 +26,7 @@ import Blog from './pages/Blog';
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
         <Switch>
           <Route exact path="/" component={Home} />
             {/* <Home />
@@ -58,7 +59,7 @@ function App() {
             <Blog />
           </Route>
           </Switch>
-      </Router>
+      </HashRouter>
   )
 }
 
