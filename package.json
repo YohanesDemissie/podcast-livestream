@@ -46,5 +46,12 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YohanesDemissie/podcast-livestream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YohanesDemissie/podcast-livestream/issues"
   }
 }
