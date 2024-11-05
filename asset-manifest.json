@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/podcast-livestream/static/css/main.e909ed44.chunk.css",
+    "main.js": "/podcast-livestream/static/js/main.cf9411f8.chunk.js",
+    "main.js.map": "/podcast-livestream/static/js/main.cf9411f8.chunk.js.map",
+    "runtime-main.js": "/podcast-livestream/static/js/runtime-main.cb03ca9b.js",
+    "runtime-main.js.map": "/podcast-livestream/static/js/runtime-main.cb03ca9b.js.map",
+    "static/js/2.9d47a0be.chunk.js": "/podcast-livestream/static/js/2.9d47a0be.chunk.js",
+    "static/js/2.9d47a0be.chunk.js.map": "/podcast-livestream/static/js/2.9d47a0be.chunk.js.map",
+    "static/js/3.d7fa9e63.chunk.js": "/podcast-livestream/static/js/3.d7fa9e63.chunk.js",
+    "static/js/3.d7fa9e63.chunk.js.map": "/podcast-livestream/static/js/3.d7fa9e63.chunk.js.map",
+    "index.html": "/podcast-livestream/index.html",
+    "static/css/main.e909ed44.chunk.css.map": "/podcast-livestream/static/css/main.e909ed44.chunk.css.map",
+    "static/js/2.9d47a0be.chunk.js.LICENSE.txt": "/podcast-livestream/static/js/2.9d47a0be.chunk.js.LICENSE.txt",
+    "static/media/twitter-icon.b15ef89a.png": "/podcast-livestream/static/media/twitter-icon.b15ef89a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb03ca9b.js",
+    "static/js/2.9d47a0be.chunk.js",
+    "static/css/main.e909ed44.chunk.css",
+    "static/js/main.cf9411f8.chunk.js"
+  ]
+}
