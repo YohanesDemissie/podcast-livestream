@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import {
   BrowserRouter as Router,
+  Routes,
   HashRouter,
   Switch,
   Route,
@@ -27,38 +28,38 @@ import Blog from './pages/Blog';
 function App() {
   return (
     <HashRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
             {/* <Home />
           </Route> */}
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/admin-0731">
-            <Admin />
-          </Route>
-          <Route path="/guest-stars">
-            <GuestStars />
-          </Route>
-          <Route path="/features-in-fatherhood">
-            <FeaturesInFatherhood />
-          </Route>
-          <Route path="/black-excellence">
-            <BlackExcellence />
-          </Route>
-          <Route path="/events">
-            <Events />
-          </Route>
-          <Route path="/thankyou">
-            <ThankYou />
-          </Route>
-          <Route path="/blog">
-            <Blog />
-          </Route>
-          </Switch>
+          <Route path="/about" element={<About />} />
+            {/* <About />
+          </Route> */}
+          <Route path="/contact" element={<Contact />} />
+            {/* <Contact />
+          </Route> */}
+          <Route path="/admin-0731" element={<Admin />} />
+            {/* <Admin />
+          </Route> */}
+          <Route path="/guest-stars" element={<GuestStars />} />
+            {/* <GuestStars />
+          </Route> */}
+          <Route path="/features-in-fatherhood" element={<FeaturesInFatherhood /> } />
+            {/* <FeaturesInFatherhood />
+          </Route> */}
+          <Route path="/black-excellence" element={<BlackExcellence />} />
+            {/* <BlackExcellence />
+          </Route> */}
+          <Route path="/events" element={<Events />} />
+            {/* <Events />
+          </Route> */}
+          <Route path="/thankyou" element={<ThankYou />} />
+            {/* <ThankYou />
+          </Route> */}
+          <Route path="/blog" element={<Blog />} />
+            {/* <Blog />
+          </Route> */}
+          </Routes>
       </HashRouter>
   )
 }

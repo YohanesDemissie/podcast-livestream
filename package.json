@@ -1,7 +1,7 @@
 {
   "name": "podcast-livestream",
   "version": "0.1.0",
-  "homepage": "https://yohanesdemissie.github.io/podcast-livestream/",
+  "homepage": "https://yohanesdemissie.github.io/podcast-livestream/#",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
