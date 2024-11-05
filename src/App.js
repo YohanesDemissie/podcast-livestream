@@ -28,7 +28,7 @@ import Blog from './pages/Blog';
 function App() {
   return (
     // <Router hashType="hash">
-        <Routes>
+        <Routes hashType='slash'>
           <Route exact path="/"  element={<Home/>} />
             {/* <Home />
           </Route> */}

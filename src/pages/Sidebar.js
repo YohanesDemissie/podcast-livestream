@@ -22,14 +22,14 @@ const Sidebar = () => {
       {view == true ? <MobileMenu /> :
         <nav className="main-menu">
           <ul>
-            <li><a basename="/#" href="/#">Home</a></li>
-            <li><a href="/#/guest-stars">Featured Guests</a></li>
-            <li><a href="/#/features-in-fatherhood">Features In Fatherhood</a></li>
-            <li><a href="/#/black-excellence">Black Excellence</a></li>
-            <li><a href="/#/events">Events</a></li>
-            <li><a className="first-list" href="/#/about">About</a></li>
-            <li><a href="/#/blog">Blog</a></li>
-            <li><a href="/#/contact">Contact</a></li>
+            <li><a href="/podcast-livestream/#/">Home</a></li>
+            <li><a href="/podcast-livestream/#/guest-stars">Featured Guests</a></li>
+            <li><a href="/podcast-livestream/#/features-in-fatherhood">Features In Fatherhood</a></li>
+            <li><a href="/podcast-livestream/#/black-excellence">Black Excellence</a></li>
+            <li><a href="/podcast-livestream/#/events">Events</a></li>
+            <li><a className="first-list" href="/podcast-livestream/#/about">About</a></li>
+            <li><a href="/podcast-livestream/#/blog">Blog</a></li>
+            <li><a href="/podcast-livestream/#/contact">Contact</a></li>
           </ul>
         </nav>
       }
