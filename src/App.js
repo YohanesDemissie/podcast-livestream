@@ -28,11 +28,11 @@ import Blog from './pages/Blog';
 function App() {
   return (
     // <Router hashType="hash">
-        <Routes hashType='slash'>
+        <Routes>
           <Route exact path="/"  element={<Home/>} />
             {/* <Home />
           </Route> */}
-          <Route path="/about"  />
+          <Route path="/about" element={<About/>} />
             {/* <About />
           </Route> */}
           <Route path="/contact" element={<Contact />} />
