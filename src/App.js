@@ -32,7 +32,7 @@ function App() {
           <Route exact path="/"  element={<Home/>} />
             {/* <Home />
           </Route> */}
-          <Route path="/#/about"  />
+          <Route path="/about"  />
             {/* <About />
           </Route> */}
           <Route path="/contact" element={<Contact />} />
