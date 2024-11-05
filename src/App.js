@@ -1,8 +1,8 @@
 import React, { useState, useEffect} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
-  HashRouter,
+  // HashRouter,
   Switch,
   Route,
   Link
@@ -27,12 +27,12 @@ import Blog from './pages/Blog';
 
 function App() {
   return (
-    <HashRouter>
+    // <Router hashType="hash">
         <Routes>
-          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/"  element={<Home/>} />
             {/* <Home />
           </Route> */}
-          <Route path="/about" element={<About />} />
+          <Route path="/#/about"  />
             {/* <About />
           </Route> */}
           <Route path="/contact" element={<Contact />} />
@@ -60,7 +60,7 @@ function App() {
             {/* <Blog />
           </Route> */}
           </Routes>
-      </HashRouter>
+      // </Router>
   )
 }
 
