@@ -52,6 +52,6 @@
     "url": "https://github.com/YohanesDemissie/podcast-livestream/issues"
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "gh-pages": "^2.1.1"
   }
 }
