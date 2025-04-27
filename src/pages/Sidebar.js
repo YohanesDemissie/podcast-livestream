@@ -29,7 +29,7 @@ const Sidebar = () => {
             <li><a href="/black-excellence">Black Excellence</a></li>
             <li><a href="/events">Events</a></li>
             <li><a className="first-list" href="/about">About</a></li>
-            <li><a href="/blog">Blog</a></li>
+            {/* <li><a href="/blog">Blog</a></li> */}
             <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
