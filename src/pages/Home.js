@@ -4,6 +4,8 @@ import Episodes from './Episodes';
 import Sidebar from './Sidebar';
 import '../styles/home.css';
 import Footer from './Footer';
+import img1 from '../assets/mark-hatcher.jpeg';
+
 
 
 
@@ -29,11 +31,11 @@ const Home = () => {
           <Sidebar /> 
         </div>
 
-      <div class="home-wrapper">
+      <div className="home-wrapper">
         <Title />
         <div className="home-container">
           <div className="header-container">
-          <img className="header-image" src={'https://lh3.googleusercontent.com/pw/AM-JKLUh7j9dfIsj_ydO2O8m6lmhAnGKOE8uLk7oCd6FHdgvjoBBz0XeuWqnUQOr9mzuFpVOINWIRtYtZAcSLEgjvYPk2U_YchrXTOCrFs-Iyt1Sq3axyJ_xYCqIIM1LI6ht2BaFrKcsHzKq94bsXnnYGzsL=w1030-h1548-no?authuser=0'} alt="soul" />
+          <img className="header-image" src={img1} alt="soul" />
             <div className="header-titles-container">
               <p className="header-episode">Welcome to:</p>
               <p className="header-title">Presence OVER Perfection</p>
