@@ -6,4 +6,7 @@
 	.mobile-menu-container {
 		display: inline-block;
 	}
+		.mobile-menu-button {
+			display: block;
+		}
 }

@@ -20,7 +20,8 @@ const Sidebar = () => {
       <button className="mobile-menu-button" onClick={handleClick}>
         Menu
       </button>
-      {view == true ? <MobileMenu /> :
+      {/* {view == true ? <MobileMenu /> : */}
+      {view == true ? <div class="hide-menu"></div> :
         <nav className="sidenav">
           <ul>
             <li><a href="/">Home</a></li>

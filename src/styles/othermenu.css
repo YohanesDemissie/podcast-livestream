@@ -35,4 +35,7 @@
 		color: #818181;
 		display: inline-block;
 	}
+	button.mobile-menu-button {
+		position: absolute;
+	}
 }
