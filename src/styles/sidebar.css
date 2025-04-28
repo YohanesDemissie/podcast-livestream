@@ -78,11 +78,12 @@ li {
 	}
 }
 
-@media only screen and (min-width: 731px) {
+/* @media only screen and (min-width: 731px) {
 	.side-nav {
 		padding: 5px 8px 6px 16px;
+		padding-top: 40px;
 	}
-}
+} */
 
 	.sidenav {
 		width: 160px;
@@ -141,4 +142,14 @@ position: sticky; */
 
 nav.sidenav a {
 	padding: 5px 8px 6px 16px;
+}
+
+@media only screen and (min-width: 731px) {
+	.side-nav {
+		padding: 5px 8px 6px 16px;
+	}
+	.sidenav {
+		padding-top: 40px;
+
+	}
 }
