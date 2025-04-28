@@ -68,6 +68,9 @@
 			.mobile-menu-button {
 				position: relative;
 				z-index: 100;
+										border-bottom: 1px solid #818181;
+											padding-top: 20px;
+											padding-bottom: 20px;
 			}
 		}
 
@@ -79,6 +82,14 @@
 						z-index: 100;
 						margin-left: 0px;
 						width: 160px;
+
+						position: relative;
+							z-index: 100;
+							margin-left: 0px;
+							width: 100px;
+							border-width: 5px;
+							text-align: center;
+							padding-left: 0px;
 					}
 				}
 

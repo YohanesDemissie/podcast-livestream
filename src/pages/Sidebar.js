@@ -21,15 +21,15 @@ const Sidebar = () => {
         Menu
       </button>
       {/* {view == true ? <MobileMenu /> : */}
-      {view == true ? <div class="hide-menu"></div> :
+      {view == true ? <div className="hide-menu"></div> :
         <nav className="sidenav">
           <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="/home">Home</a></li>
             <li><a href="/guest-stars">Featured Guests</a></li>
             <li><a href="/features-in-fatherhood">Features In Fatherhood</a></li>
             <li><a href="/black-excellence">Black Excellence</a></li>
             <li><a href="/events">Events</a></li>
-            <li><a className="first-list" href="/about">About</a></li>
+            <li><a href="/about">About</a></li>
             {/* <li><a href="/blog">Blog</a></li> */}
             <li><a href="/contact">Contact</a></li>
           </ul>

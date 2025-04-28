@@ -27,15 +27,15 @@ li {
 
 	.mobile-menu-button {
 		display: block;
-		color: gray;
-		background-color: black;
+		color: #818181;
+		background-color: transparent;
 		border: none;
 		padding-top: 15px;
 		padding-left: 20px;
 		padding-bottom: 10px;
 		width: 100%;
 		text-align: left;
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	.mobile-menu {
@@ -63,23 +63,26 @@ li {
 		background-color: blue;
 		color: white;
 		width: 100px; */
-						cursor: pointer;
-							background-color: rgb(235, 235, 235);
-							color: white;
-							font-weight: 900;
-							width: 100px;
-							color: black;
+		cursor: pointer;
+		background-color: rgb(235, 235, 235);
+		/* color: white;
+		font-weight: 900;
+		width: 100px; */
+		color: black;
+		width: 160px !important;
+	}
+
+	.sidenav {
+		padding-top: 100px;
+		/* margin-top: 100px; */
 	}
 }
 
-/* @media only screen and (min-width: 731px) { */
-	/* .mobile-menu {
-		display: none;
-	} */
-/* 
-		.mobile-menu-button {
-			display: none;
-		} */
+@media only screen and (min-width: 731px) {
+	.side-nav {
+		padding: 5px 8px 6px 16px;
+	}
+}
 
 	.sidenav {
 		width: 160px;
@@ -104,12 +107,15 @@ position: sticky; */
 		display: block;
 		/* flex-grow: 1; */
 		margin-right: 32px;
-		padding-top: 40px;
+		/* padding-top: 40px; */
+		/* padding-top: 100px; */
+		/* padding: 5px 8px 6px 16px; */
+		line-height: 1.5;
 	}
 
 	.sidenav a {
 		/* padding-top: 500px; */
-		padding: 5px 8px 6px 16px;
+		/* padding: 5px 8px 6px 16px; */
 		text-decoration: none;
 		font-size: 25px;
 		color: #818181;
@@ -119,6 +125,7 @@ position: sticky; */
 
 	.sidenav a:hover {
 		color: #f1f1f1;
+		border-bottom: 1px solid white;
 	}
 /* } */
 
@@ -129,5 +136,9 @@ position: sticky; */
 
 .mobile-menu-button {
 	display: block;
-	color: white;
+	color: #818181;
+}
+
+nav.sidenav a {
+	padding: 5px 8px 6px 16px;
 }
