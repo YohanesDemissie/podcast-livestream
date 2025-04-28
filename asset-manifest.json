@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/podcast-livestream/static/css/main.1aae9aff.chunk.css",
-    "main.js": "/podcast-livestream/static/js/main.6d6b758f.chunk.js",
-    "main.js.map": "/podcast-livestream/static/js/main.6d6b758f.chunk.js.map",
+    "main.js": "/podcast-livestream/static/js/main.53ccf05a.chunk.js",
+    "main.js.map": "/podcast-livestream/static/js/main.53ccf05a.chunk.js.map",
     "runtime-main.js": "/podcast-livestream/static/js/runtime-main.a3306548.js",
     "runtime-main.js.map": "/podcast-livestream/static/js/runtime-main.a3306548.js.map",
     "static/js/2.d2c10988.chunk.js": "/podcast-livestream/static/js/2.d2c10988.chunk.js",
@@ -12,12 +12,13 @@
     "index.html": "/podcast-livestream/index.html",
     "static/css/main.1aae9aff.chunk.css.map": "/podcast-livestream/static/css/main.1aae9aff.chunk.css.map",
     "static/js/2.d2c10988.chunk.js.LICENSE.txt": "/podcast-livestream/static/js/2.d2c10988.chunk.js.LICENSE.txt",
+    "static/media/mark-hatcher.27d386ae.jpeg": "/podcast-livestream/static/media/mark-hatcher.27d386ae.jpeg",
     "static/media/twitter-icon.b15ef89a.png": "/podcast-livestream/static/media/twitter-icon.b15ef89a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a3306548.js",
     "static/js/2.d2c10988.chunk.js",
     "static/css/main.1aae9aff.chunk.css",
-    "static/js/main.6d6b758f.chunk.js"
+    "static/js/main.53ccf05a.chunk.js"
   ]
 }
