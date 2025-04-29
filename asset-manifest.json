@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/YohanesDemissie/podcast-livestream/static/css/main.1aae9aff.chunk.css",
-    "main.js": "/YohanesDemissie/podcast-livestream/static/js/main.857e52c9.chunk.js",
-    "main.js.map": "/YohanesDemissie/podcast-livestream/static/js/main.857e52c9.chunk.js.map",
-    "runtime-main.js": "/YohanesDemissie/podcast-livestream/static/js/runtime-main.f840104b.js",
-    "runtime-main.js.map": "/YohanesDemissie/podcast-livestream/static/js/runtime-main.f840104b.js.map",
-    "static/js/2.c59da42c.chunk.js": "/YohanesDemissie/podcast-livestream/static/js/2.c59da42c.chunk.js",
-    "static/js/2.c59da42c.chunk.js.map": "/YohanesDemissie/podcast-livestream/static/js/2.c59da42c.chunk.js.map",
-    "static/js/3.727e55a8.chunk.js": "/YohanesDemissie/podcast-livestream/static/js/3.727e55a8.chunk.js",
-    "static/js/3.727e55a8.chunk.js.map": "/YohanesDemissie/podcast-livestream/static/js/3.727e55a8.chunk.js.map",
-    "index.html": "/YohanesDemissie/podcast-livestream/index.html",
-    "static/css/main.1aae9aff.chunk.css.map": "/YohanesDemissie/podcast-livestream/static/css/main.1aae9aff.chunk.css.map",
-    "static/js/2.c59da42c.chunk.js.LICENSE.txt": "/YohanesDemissie/podcast-livestream/static/js/2.c59da42c.chunk.js.LICENSE.txt",
-    "static/media/mark-hatcher.27d386ae.jpeg": "/YohanesDemissie/podcast-livestream/static/media/mark-hatcher.27d386ae.jpeg",
-    "static/media/twitter-icon.b15ef89a.png": "/YohanesDemissie/podcast-livestream/static/media/twitter-icon.b15ef89a.png"
+    "main.css": "/podcast-livestream/static/css/main.1aae9aff.chunk.css",
+    "main.js": "/podcast-livestream/static/js/main.027af294.chunk.js",
+    "main.js.map": "/podcast-livestream/static/js/main.027af294.chunk.js.map",
+    "runtime-main.js": "/podcast-livestream/static/js/runtime-main.f52768a7.js",
+    "runtime-main.js.map": "/podcast-livestream/static/js/runtime-main.f52768a7.js.map",
+    "static/js/2.5765367f.chunk.js": "/podcast-livestream/static/js/2.5765367f.chunk.js",
+    "static/js/2.5765367f.chunk.js.map": "/podcast-livestream/static/js/2.5765367f.chunk.js.map",
+    "static/js/3.727e55a8.chunk.js": "/podcast-livestream/static/js/3.727e55a8.chunk.js",
+    "static/js/3.727e55a8.chunk.js.map": "/podcast-livestream/static/js/3.727e55a8.chunk.js.map",
+    "index.html": "/podcast-livestream/index.html",
+    "static/css/main.1aae9aff.chunk.css.map": "/podcast-livestream/static/css/main.1aae9aff.chunk.css.map",
+    "static/js/2.5765367f.chunk.js.LICENSE.txt": "/podcast-livestream/static/js/2.5765367f.chunk.js.LICENSE.txt",
+    "static/media/mark-hatcher.27d386ae.jpeg": "/podcast-livestream/static/media/mark-hatcher.27d386ae.jpeg",
+    "static/media/twitter-icon.b15ef89a.png": "/podcast-livestream/static/media/twitter-icon.b15ef89a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f840104b.js",
-    "static/js/2.c59da42c.chunk.js",
+    "static/js/runtime-main.f52768a7.js",
+    "static/js/2.5765367f.chunk.js",
     "static/css/main.1aae9aff.chunk.css",
-    "static/js/main.857e52c9.chunk.js"
+    "static/js/main.027af294.chunk.js"
   ]
 }
