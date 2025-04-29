@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/podcast-livestream/static/css/main.1aae9aff.chunk.css",
-    "main.js": "/podcast-livestream/static/js/main.d517a5bd.chunk.js",
-    "main.js.map": "/podcast-livestream/static/js/main.d517a5bd.chunk.js.map",
+    "main.js": "/podcast-livestream/static/js/main.952800f4.chunk.js",
+    "main.js.map": "/podcast-livestream/static/js/main.952800f4.chunk.js.map",
     "runtime-main.js": "/podcast-livestream/static/js/runtime-main.1ffb52b8.js",
     "runtime-main.js.map": "/podcast-livestream/static/js/runtime-main.1ffb52b8.js.map",
     "static/js/2.9e94915a.chunk.js": "/podcast-livestream/static/js/2.9e94915a.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.1ffb52b8.js",
     "static/js/2.9e94915a.chunk.js",
     "static/css/main.1aae9aff.chunk.css",
-    "static/js/main.d517a5bd.chunk.js"
+    "static/js/main.952800f4.chunk.js"
   ]
 }
